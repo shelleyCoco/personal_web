@@ -1,0 +1,255 @@
+﻿@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+input,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1em;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "微软雅黑";
+}
+
+body,
+html {
+	height: 100%;
+}
+
+img {
+	border: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+em,
+i,
+u,
+b,
+strong,
+span {
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+select,
+input {
+	vertical-align: middle
+}
+
+.clear {
+	display: block !important;
+	clear: both !important;
+	float: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+
+/* 清除浮动 */
+
+.clearfix {
+	zoom: 1;
+}
+
+
+/* 兼容IE6 */
+
+.spacer {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+a {
+	color: #3c3c3c;
+	text-decoration: none
+}
+
+a:hover {
+	color: #f50;
+	cursor: pointer;
+}
+
+img,
+input,
+label {
+	vertical-align: middle;
+}
+
+.fl {
+	float: left;
+	display: inline;
+}
+
+.fr {
+	float: right;
+	display: inline;
+}
+
+.por {
+	position: relative;
+}
+
+textarea {
+	resize: none;
+}
+
+input {
+	outline: none;
+}
+

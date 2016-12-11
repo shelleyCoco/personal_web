@@ -1,0 +1,195 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.player-bg {
+	margin: auto;
+	position: relative;
+}
+
+.player-warp {
+	width: 298px;
+	height: 325px;
+	background: white;
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 3px;
+	background: url(../img/1.jpg) no-repeat center;
+	border: 1px solid #666767;
+	/*box-shadow: 0 0 20px #666767;*/
+	background-size: cover;
+	z-index: 2;
+}
+
+.player-light {
+	width: 298px;
+	height: 325px;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 3px;
+	background: url(../img/light.png)no-repeat right top;
+	border: 1px solid #666767;
+	/*box-shadow: 0 0 20px #666767;*/
+	z-index: 3;
+}
+
+.player-shadow {
+	width: 270px;
+	height: 325px;
+	/*background: white;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	box-shadow: 0 20px 60px #000;
+	z-index: 1;
+}
+
+.controls {
+	width: 298px;
+	height: 131px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 1));
+	position: absolute;
+	bottom: -1px;
+	left: -1px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	z-index: 5;
+}
+
+.timeLineBox {
+	width: 298px;
+	height: 10px;
+	background: #101010;
+	margin: auto;
+}
+
+.timeLine {
+	width: 0px;
+	height: 10px;
+	background: linear-gradient(180deg, #DE726C, #AB3227);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	box-shadow: 0 3px 3px #000;
+}
+
+.titleBox {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 12px;
+	padding-top: 15px;
+}
+
+.songName {
+	font: 18px/18px "microsoft yahei";
+}
+
+.singer {
+	font: 9px/9px "微软雅黑";
+	margin-top: 10px;
+	color: #ADADAD;
+}
+
+.singer span {
+	font-style: italic;
+}
+
+.circlePlay {
+	width: 14px;
+	padding: 16px 71px 0 20px;
+}
+
+.circlePlay img {}
+
+.playCont {
+	position: relative;
+	width: 100px;
+	height: 46px;
+	background: url(../img/playbg.gif) no-repeat;
+}
+
+.back {
+	position: absolute;
+	top: 7px;
+	left: 1px;
+}
+
+.next {
+	position: absolute;
+	top: 7px;
+	right: 1px;
+}
+
+.play {
+	position: absolute;
+	top: 2px;
+	left: 25px;
+}
+
+.volumeBox {
+	width: 36px;
+	height: 37px;
+	margin-left: 49px;
+	margin-top: 5px;
+	background: url(../img/volumebg.png);
+	position: relative;
+}
+
+.voluemeLineBox {
+	width: 32px;
+	height: 97px;
+	position: absolute;
+	top: -100px;
+	left: 1px;
+	background: url(../img/volumelingbg.png);
+	visibility: hidden;
+}
+
+#volueme {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.allVolume {
+	width: 8px;
+	height: 77px;
+	background: #090909;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+
+.volNode {
+	width: 10px;
+	height: 3px;
+	position: absolute;
+	top: 0;
+	left: -1px;
+	background: url(../img/volBtn.png);
+	z-index: 2;
+}
+
+.volLine {
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(180deg, #DE726C, #AB3227);
+}
